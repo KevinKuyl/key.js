@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Keys test</title>
+	</head>
+  <script src="keys.js"></script>
+  <script>
+  key.init();
+
+  key.on('S', 'keydown', function(){
+    console.log('Firing the keyDown function of S');
+  });
+
+  key.on('S', 'constant', function(delta){
+    console.log('Firing the constant function of S, the delta ( ' + delta + ' ) can be used for smooth animations.');
+  });
+
+  key.on('S', 'double', function(){
+    console.log('Firing the doubletap function of S');
+  });
+
+  key.on('S', 'keyup', function(){
+    console.log('Firing the keyUp function of S');
+  });
+  </script>
+	<body>
+	</body>
+</html>

@@ -35,4 +35,4 @@ Binding a function to a key:
   </script>
 ```
 
-A single key can have multiple functions bound to is as in the example above.
+A single key can have multiple functions bound to it as in the example above.
